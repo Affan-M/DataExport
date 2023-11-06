@@ -1,3 +1,5 @@
 # Data Export
  
 This is intended to show 3 possible functions that could be used to import data from an API and export it to an Excel file in a clean, readable format. The 3 functions are required to retrieve the data, process it as required and tidy it.
+
+Note that the API used in this is the Maldives Monetary Authority (MMA) query database. User can request an API key at https://database.mma.gov.mv/api.

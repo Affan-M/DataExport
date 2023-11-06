@@ -13,7 +13,7 @@ Query_DataSort <- function(series_id_list) {
   #                   Can be a vector or a single series ID.
   
   # Setting the authorization header. Change bearer token to your API given by MMA database website.
-  bearer_token <- "9|kfbjltsPbaApuvycKBG5R7NK2NHRPvfnob5WuFnF"
+  bearer_token <- api_key
   auth_headers <- c(Authorization = glue("Bearer {bearer_token}"))
   
   # Combining links with series IDs
